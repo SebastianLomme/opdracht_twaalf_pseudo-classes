@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+
+
+a:hover {
+    color: lightblue;
+    font-weight: 700;
+}
+
+a:active {
+    color: red;
+    font-style: italic;
+}
+
+a:visited {
+    color: yellow;
+}
+
+input:focus {
+    color: green;
+    font-size: 20px;
+}
+
+nav {
+    background: darkblue;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+}
+
+nav li:hover {
+    background: lightblue;
+}
+
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+.currentPage {
+    background: #26252d;
+}
+
+input:focus[name="zoekbalk"] {
+    border: solid 4px aqua;
+}
